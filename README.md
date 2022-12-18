@@ -13,7 +13,7 @@
 - *It took me around 1 day to complete the webpage.*
 
 # Live link of projects:
- [project 01]()
+ [project 01](https://lustrous-basbousa-abbab4.netlify.app/)
 
  ### Preview:
  
