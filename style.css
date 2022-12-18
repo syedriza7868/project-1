@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "orbitron";
+}
+[aria-label="navbar"] {
+ display: flex;
+ justify-content: center;
+}
+.navbar-container {
+ display: flex;
+ width: 92%;
+ padding-top: 35px;
+ justify-content: space-around;
+}
+.barnd-logo {
+ height: 44px;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  width: 90%;
+  list-style: none;
+  width: 100%;
+}
+.list-holder {
+ display: flex;
+ justify-content: center;
+ width: 50%;
+}
+.list > .list-item {
+ font-size: 26px;
+}
+li.list-item {
+ font-weight: 600;
+ font-size: 20px;
+ padding: 18px;
+}
+li.list-item-1  {
+ border-bottom: 4px solid black;
+ font-weight: 800;
+}
+li.list-item-1 {
+ font-size:25px ;
+}
+.search-icon:hover {
+ transform: scale(2)
+}
+.search-icon{
+ height: 18px;
+}
+button.nav-button {
+ padding: 5px 30px;
+ font-size: 18px;
+ border: 2px solid black;
+ border-radius: 10px;
+ background: #ffff;
+ margin-left: 12px;
+}
+ .button-group{
+  display: flex;
+}
+[aria-label="banner"] {
+ display: flex;
+ justify-content: center;
+}
+span.square img {
+ position: absolute;
+ bottom: -40px;
+ left: 98px;
+ z-index: -1;
+ width: 320px;
+ height: 350px;
+}
+span.square-right{
+  width: 40%;
+}
+span.star img {
+ height: 50px;
+ position: absolute;
+ left: 85%;
+ bottom: 55%;
+}
+span.globe img {
+position: absolute;
+transform: translateX(570px);
+height: 60px;
+}
+.hero-container {
+ display: flex;
+ min-width: 1200px;
+ margin: 0;
+ padding: 20px; 
+}
+span.hero-container-right{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ text-align: center;
+ align-items: center;
+ left: 50%;
+}
+.hero-container-right> h1 {
+ font-size:  48px;
+ margin: 0;
+ margin-left: 18%;
+ margin-top: 18%;
+}
+p.hero-description {
+ font-size: 14px;
+ font-weight: 600;
+ padding: 70px 75px;
+ font-family: system-ui;
+ color: #717070;
+ margin: 0;
+ margin-left: 5%;
+ text-align: center;
+ }
+ 
+.Contact-button{
+ width: 40%;
+ display: flex;
+ justify-content: space-between;
+ justify-content: center;
+ align-content: center;
+}
+.button-email {
+ border: 2px solid black;
+ font-size: 15px;
+ border-radius: 5px;
+ background: transparent;
+ color: black;
+ height: 30px;
+ width: 20%;
+ margin: 0;
+ margin-left: 34%;
+}
+.button-join {
+ border: 2px solid black;
+ font-size: 15px;
+ border-radius: 5px;
+ background:black;
+ color: white;
+ height: 30px;
+ width: 15%;
+}
+.person-hero-img {
+ width: 50%;
+}
+.hero-container-left{
+ width: 40%;
+}
+.contact-heading {
+ position: absolute;
+ margin: 0;
+ margin-left: 32%;
+ margin-bottom: 40%;
+ margin-top: 4%;
+}
+.icons {
+ display: flex;
+ justify-content: center;
+}
+ .icons span img{
+ height: 30px;
+ width: 25px;
+ margin-right: .5rem;
+ margin-top: 260%;
+margin-left: 40%;
+}
+.person-hero-iamge {
+ position: relative;
+ margin: 0%;
+ margin-top: 20%;
+}
